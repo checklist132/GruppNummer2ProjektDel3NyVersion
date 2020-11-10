@@ -8,8 +8,7 @@ public class Ticket {
 	int price;
 	String name;
 	int age;
-	//Person customer;
-	//Scanner scanMoney = new Scanner(System.in);
+	
 	ArrayList<Ticket> tickets = new ArrayList<>();
 	
 
@@ -18,34 +17,15 @@ public class Ticket {
 		this.name = name;
 		this.age = age;
 		
-		//this.customer = new Person(name, age);
+		
 	}
-	
 	
 
 	public Ticket() {
 		super();
 	}
 
-
-
-	/*public Ticket(int price, String monthlyCard) {
-		this.price = price;
-		this.monthlyCard = monthlyCard;
-		//this.stranger = new Person(name, age);
-	}*/
-
-
-
-	/*public String getMonthlyCard() {
-		return monthlyCard;
-	}
-
-
-
-	public void setMonthlyCard(String monthlyCard) {
-		this.monthlyCard = monthlyCard;
-	}*/
+	
 
 	public int getPrice() {
 		return price;
@@ -55,14 +35,7 @@ public class Ticket {
 		this.price = price;
 	}
 
-	/*public String getRegularTicket() {
-		return regularTicket;
-	}
-
-	public void setRegularTicket(String regularTicket) {
-		this.regularTicket = regularTicket;
-	}*/
-
+	
 	//If-sats till när man ska köpa biljett för en viss ålder.
 		//under 18 år, över 18 år och 65 år gammal.
 	public void buyTicket(int price, String name, int age) {
@@ -73,7 +46,6 @@ public class Ticket {
 		
 	}
 		
-	
 
 	public void showTicket() {
 	
